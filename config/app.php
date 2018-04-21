@@ -150,7 +150,10 @@ return [
         /*
          * Package Service Providers...
          */
-        Praem90\PDF\ServiceProvider::class,
+
+        // Praem90\PDF\ServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
+
 
 
         /*
@@ -210,7 +213,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'PDF' => Praem90\PDF\Facade::class,
+        //'PDF' => Praem90\PDF\Facade::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
+
 
     ],
 

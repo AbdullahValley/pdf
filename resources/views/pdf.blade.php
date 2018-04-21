@@ -8,9 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="{{ public_path('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ public_path('css/style.css') }}">
-
-    @yield('header-content')
+    <link rel="stylesheet" href="{{ public_path('css/pdf.css') }}">
 
     <title>Project</title>
 
